@@ -1,5 +1,15 @@
 {
   "routes": [
+    { "src": "/service-worker\\.js", "headers": { "cache-control": "public,max-age=0,must-revalidate" }, "dest": "/service-worker.js" },
+    { "src": "/manifest\\.webmanifest", "dest": "/manifest.webmanifest" },
+    { "src": "/favicon\\.ico", "dest": "/favicon.ico" },
+    { "src": "/_framework/(.*)", "dest": "/_framework/$1" },
+    { "src": "/_content/(.*)", "dest": "/_content/$1" },
+    { "src": "/css/(.*)", "dest": "/css/$1" },
+    { "src": "/js/(.*)", "dest": "/js/$1" },
+    { "src": "/(.*\\.dll)", "dest": "/$1" },
+    { "src": "/(.*\\.wasm)", "dest": "/$1" },
+    { "src": "/(.*\\.json)", "dest": "/$1" },
     { "src": "/(.*)", "dest": "/index.html" }
   ]
 }
