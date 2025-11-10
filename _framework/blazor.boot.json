@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "SociosApp",
   "resources": {
-    "hash": "sha256-ppTj+GGAPO/rD1S0igIOPolk10NuytEzEiKlIKgD5iQ=",
+    "hash": "sha256-X7vcA3QqISXd3I4PTtiiBX2kdwRjxbsXlKIOJmnSqII=",
     "jsModuleNative": {
       "dotnet.native.js": "sha256-9Fzd5We95Rp03dEKIAbYjPDR3eWyLbmjMlYStvxyiok="
     },
@@ -121,7 +121,7 @@
       "System.wasm": "sha256-PUc71Jd5nvz5F65sAd0C3ZORcUzYK2JSfSDmE+Drn0Q=",
       "netstandard.wasm": "sha256-XUi24CURva9yBFytY+D1dz5//UvgwKrqCPFMwsD18Y8=",
       "System.Private.CoreLib.wasm": "sha256-qAW0TB8knxDggOxyDUQA3WK7VOrUW2xk/QnTIlBAAYI=",
-      "SociosApp.wasm": "sha256-M5RqZO2bG13FXa9TMNC25dbGe7LJJ24D7JEzwt2II4c="
+      "SociosApp.wasm": "sha256-ipu/URBrkqTpK77M6avcS+LnTaE/AlBGUK5UNX5wi94="
     }
   },
   "cacheBootResources": true,
